@@ -9,6 +9,7 @@ import {
 import HeaderContainer from '../containers/HeaderContainer';
 import IssuesTable from './issues-table/IssuesTable';
 import IssuesDetail from './issue-detail/IssueDetail';
+import Footer from './header/Footer';
 
 const Container = styled.div`
   font-size : 14px;
@@ -37,6 +38,7 @@ const App = () => (
           <Route path="*" component={IssuesTable} />
         </Switch>
       </Router>
+      <Footer/>
     </IssueListingContainer>
   </Container>
 );

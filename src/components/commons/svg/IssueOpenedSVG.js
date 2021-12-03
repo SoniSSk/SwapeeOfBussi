@@ -22,5 +22,5 @@ IssueOpenedSVG.propTypes = {
 };
 
 IssueOpenedSVG.defaultProps = {
-  color: '#fff',
+  color: 'grey',
 };
