@@ -15,10 +15,10 @@ const navigationValues = [
     name: 'Code', selected: false, url: `${WEB_URL}/${OWNER}/${REPO}`,
   },
   {
-    name: 'Issues', value: 253, selected: true, url: `${window.location.origin}`,
+    name: 'Issues', value: 625, selected: true, url: `${window.location.origin}`,
   },
   {
-    name: 'Pull Requests', value: 72, selected: false, url: `${WEB_URL}/${OWNER}/${REPO}/pulls`,
+    name: 'Pull Requests', value: 208, selected: false, url: `${WEB_URL}/${OWNER}/${REPO}/pulls`,
   },
   {
     name: 'Action', selected: false, url: `${WEB_URL}/${OWNER}/${REPO}/pulls`,
