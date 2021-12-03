@@ -13,28 +13,28 @@ import RepoNotification from '../commons/RepoNotification';
 
 const navigationValues = [
   {
-    name: 'Code', selected: false, url: `${WEB_URL}/${OWNER}/${REPO}`,
+    name: 'Code', selected: false, 
   },
   {
     name: 'Issues', value: 625, selected: true, url: `${window.location.origin}`,
   },
   {
-    name: 'Pull Requests', value: 208, selected: false, url: `${WEB_URL}/${OWNER}/${REPO}/pulls`,
+    name: 'Pull Requests', value: 208, selected: false, 
   },
   {
-    name: 'Action', selected: false, url: `${WEB_URL}/${OWNER}/${REPO}/pulls`,
+    name: 'Action', selected: false, 
   },
   {
-    name: 'Projects', selected: false, url: `${WEB_URL}/${OWNER}/${REPO}/projects`,
+    name: 'Projects', selected: false,
   },
   {
-    name: 'Wiki', selected: false, url: `${WEB_URL}/${OWNER}/${REPO}/projects`,
+    name: 'Wiki', selected: false, 
   },
   {
-    name: 'Security', value: 2, selected: false, url: `${WEB_URL}/${OWNER}/${REPO}/projects`,
+    name: 'Security', value: 2, selected: false,
   },
   {
-    name: 'Insights', selected: false, url: `${WEB_URL}/${OWNER}/${REPO}/insights`,
+    name: 'Insights', selected: false, 
   },
 ];
 
@@ -72,16 +72,10 @@ const Header = ({
           href={url}
           color="#0366d6"
         >
-          {login}
+          <p>facebook/react</p>
         </Anchor>
-        <PathDivider>/</PathDivider>
-        <Anchor
-          color="#0366d6"
-          fontWeight="bold"
-          href={html_url}
-        >
-          {name}
-        </Anchor>
+        <PathDivider></PathDivider>
+        
       </RepoTitleInfo>
       <RightNav>
         <RepoNotification tag = "Notification"/>
