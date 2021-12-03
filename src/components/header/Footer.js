@@ -53,7 +53,7 @@ const Footer = ({
     <FooterMenu >
     {
         FooterValve.map(item => (
-         <p style={{ width:"150px", padding:"20px" }}><a href="#">{item.name}</a></p>
+         <p style={{ width:"150px", padding:"20px" }}>{item.name}</p>
         ))
       }
     </FooterMenu>
