@@ -39,9 +39,6 @@ const navigationValues = [
 ];
 
 
-const PathDivider = styled.span`
-  margin: 0 .25em;
-`;
 
 const RightNav = styled.div`
    @media (max-width: 820px) {
