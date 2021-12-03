@@ -9,6 +9,7 @@ import Nav from './Nav';
 import Navmenus from './Navmenus';
 import RepoLogoSVG from '../commons/svg/RepoLogoSVG';
 import { OWNER, REPO, WEB_URL } from '../../api/constants';
+import RepoNotification from '../commons/RepoNotification';
 
 const navigationValues = [
   {
@@ -83,7 +84,7 @@ const Header = ({
         </Anchor>
       </RepoTitleInfo>
       <RightNav>
-        <RepoDetail tag="Watch" value={subscribers_count} />
+        <RepoNotification tag = "Notification"/>
         <RepoDetail tag="Star" value={stargazers_count} />
         <RepoDetail tag="Fork" value={forks_count} />
       </RightNav>
