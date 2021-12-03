@@ -2,8 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import Detail from './Detail';
-import BellSVG from './svg/BellSVG';
-
 const RepoDetailContainer = styled.div`
   display: inline-block;
   margin:5px;
