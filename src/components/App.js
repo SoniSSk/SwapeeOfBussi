@@ -30,7 +30,7 @@ const App = () => (
   <Container>
     <HeaderContainer />
     <IssueListingContainer>
-      <SubNav />
+      
       <Router>
         <Switch>
           <Route exact path="/" component={IssuesTable} />
