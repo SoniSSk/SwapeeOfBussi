@@ -1,10 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import WatchSVG from './svg/WatchSVG';
-import StarSVG from './svg/StarSVG';
-import ForkSVG from './svg/ForkSVG';
-import Caret from './Caret';
 import Detail from './Detail';
 import BellSVG from './svg/BellSVG';
 
