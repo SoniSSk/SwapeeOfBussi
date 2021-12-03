@@ -19,7 +19,7 @@ const RepoDetailTagContainer = styled.span`
    border-width: 1px 0px 1px 1px;
    padding: 5px 10px;
    font-weight : bold;
-   border-radius : 2px 0px 0px 2px;
+   border-radius : 5px 0px 0px 5px;
    background-color : #f4f7f9;
    line-height: 20px;
    cursor : pointer;
@@ -33,7 +33,7 @@ const RepoDetailValueContainer = styled.span`
    border: 1px solid #cdcfd1;
    padding: 5px 10px;
    font-weight : bold;
-   border-radius : 0px 2px 2px 0px;
+   border-radius : 0px 5px 5px 0px;
    line-height: 20px;
    cursor : pointer;
    background-color : #ffffff;
