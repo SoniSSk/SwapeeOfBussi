@@ -8,7 +8,6 @@ import NavigationItem from './NavigationItem';
 import Nav from './Nav';
 import Navmenus from './Navmenus';
 import RepoLogoSVG from '../commons/svg/RepoLogoSVG';
-import { OWNER, REPO, WEB_URL } from '../../api/constants';
 import RepoNotification from '../commons/RepoNotification';
 
 const navigationValues = [
