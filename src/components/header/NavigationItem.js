@@ -49,6 +49,9 @@ const NavigationItem = ({
     {name === 'Pull Requests' && <PrSVG />}
     {name === 'Projects' && <ProjectSVG />}
     {name === 'Insights' && <InsightsSVG />}
+    {name === 'Wiki' && <IssueOpenedSVG  />}
+    {name === 'Security' && <IssueOpenedSVG  />}
+    {name === 'Action' && <IssueOpenedSVG  />}
     <NavigationItemAnchor href={url}>{name}</NavigationItemAnchor>
     { value
       ? <NavigationItemValue>{value}</NavigationItemValue>
