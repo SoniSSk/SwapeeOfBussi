@@ -30,10 +30,10 @@ const RepoDetailTagContainer = styled.span`
 const RepoNotification = ({ tag }) => (
   <RepoDetailContainer>
     <RepoDetailTagContainer>
-      { tag === 'Notification' && <BellSVG/> }
+      { tag === 'Notification'  }
       {tag}
      
-    </RepoDetailTagContainer>
+    </RepoDetailTagContainer> 
   </RepoDetailContainer>
 );
 
