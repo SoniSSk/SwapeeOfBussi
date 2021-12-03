@@ -88,14 +88,14 @@ const IssuesTableHeader = () => (
         href={`${WEB_URL}/${OWNER}/${REPO}/issues?q=is%3Aopen+is%3Aissue`}
       >
         <IssueOpenedSVG />
-            253 Open
+            625 Open
       </OpenClosedIssueAnchor>
       <OpenClosedIssueAnchor
         style={{ marginLeft: '10px' }}
         href={`${WEB_URL}/${OWNER}/${REPO}/issues?q=is%3Aopen+is%3Aissue`}
       >
         <CompletedSVG color="#586069" hoverColor="#24292e" />
-            6378 closed
+            10104 closed
       </OpenClosedIssueAnchor>
     </OpenClosedIssueDetails>
     <OtherDetails>

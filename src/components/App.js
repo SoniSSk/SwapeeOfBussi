@@ -6,7 +6,6 @@ import {
   Route,
   Switch,
 } from 'react-router-dom';
-import SubNav from './search-subnav/SubNav';
 import HeaderContainer from '../containers/HeaderContainer';
 import IssuesTable from './issues-table/IssuesTable';
 import IssuesDetail from './issue-detail/IssueDetail';
