@@ -1,7 +1,6 @@
 /* eslint-disable camelcase */
 import React from 'react';
 import styled from 'styled-components';
-import PropTypes from 'prop-types';
 import Anchor from '../commons/Anchor';
 import RepoDetail from '../commons/RepoDetail';
 import NavigationItem from './NavigationItem';
@@ -12,29 +11,31 @@ import RepoNotification from '../commons/RepoNotification';
 
 const navigationValues = [
   {
-    name: 'Code', selected: false, 
+    name: 'Code', selected: false,
   },
   {
     name: 'Issues', value: 625, selected: true, url: `${window.location.origin}`,
   },
   {
-    name: 'Pull Requests', value: 208, selected: false, 
+    name: 'Pull Requests', value: 208, selected: false,
   },
   {
-    name: 'Action', selected: false, 
+    name: 'Action', selected: false,
   },
   {
-    name: 'Projects', selected: false,
+    name: 'Projects', selected: false, 
+  },
+  
+  {
+    name: 'Wiki', selected: false,
   },
   {
-    name: 'Wiki', selected: false, 
+    name: 'Security', selected: false,
   },
   {
-    name: 'Security', value: 2, selected: false,
+    name: 'Insights', selected: false,
   },
-  {
-    name: 'Insights', selected: false, 
-  },
+  
 ];
 
 
@@ -68,21 +69,18 @@ const Header = ({
       <RepoTitleInfo>
         <RepoLogoSVG />
         <Anchor
-          href={url}
           color="#0366d6"
         >
-          <p>facebook/react</p>
+          facebook/react
         </Anchor>
-        <PathDivider></PathDivider>
         
       </RepoTitleInfo>
       <RightNav>
-        <RepoNotification tag = "Notification"/>
+        <RepoNotification tag="Notification"  />
         <RepoDetail tag="Star" value={stargazers_count} />
         <RepoDetail tag="Fork" value={forks_count} />
       </RightNav>
     </Navmenus>
-
     <Navmenus row="second">
       {
         navigationValues.map(item => (
@@ -98,15 +96,3 @@ const Header = ({
 
 export default Header;
 
-
-Header.propTypes = {
-  name: PropTypes.string.isRequired,
-  html_url: PropTypes.string.isRequired,
-  owner: PropTypes.shape({
-    login: PropTypes.string.isRequired,
-    url: PropTypes.string.isRequired,
-  }).isRequired,
-  stargazers_count: PropTypes.number.isRequired,
-  subscribers_count: PropTypes.number.isRequired,
-  forks_count: PropTypes.number.isRequired,
-};
