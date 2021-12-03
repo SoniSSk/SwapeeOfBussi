@@ -11,7 +11,7 @@ const IssuesTableHeaderContainer = styled.div`
     background-color: #f6f8fa;
     border: 1px solid #e1e4e8;
     border-bottom: none;
-    border-radius: 3px 3px 0 0;
+    border-radius: 5px 5px 0 0;
     margin-top: 20px;
     position: relative;
     display : flex;
@@ -32,7 +32,7 @@ const OpenClosedIssueDetails = styled.div`
 const OpenClosedIssueAnchor = styled.a`
     
     border: 1px solid transparent;
-    border-radius: 3px 3px 0 0;
+    border-radius: 5px 5px 0 0;
     border-top: 3px solid transparent;
     float: left;
     font-weight : ${props => (props.selected ? 'bold' : 'none')}
