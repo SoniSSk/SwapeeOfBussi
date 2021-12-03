@@ -50,8 +50,7 @@ const Footer = ({
   forks_count,
 }) => (
   <Nav>
-     <p><strong>ProTip</strong> What's not been update in a month:<a src="#">update:2021-08-17</a></p>
-     <hr/>
+   
     <FooterMenu >
     {
         FooterValve.map(item => (

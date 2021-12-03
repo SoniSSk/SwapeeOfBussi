@@ -38,6 +38,8 @@ const App = () => (
           <Route path="*" component={IssuesTable} />
         </Switch>
       </Router>
+      <p style={{ textAlign: 'center' }}><strong>ProTip</strong> What's not been update in a month:<a src="#">update:2021-08-17</a></p>
+     <hr/>
       <Footer/>
     </IssueListingContainer>
   </Container>
