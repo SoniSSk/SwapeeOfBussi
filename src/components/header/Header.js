@@ -21,7 +21,16 @@ const navigationValues = [
     name: 'Pull Requests', value: 72, selected: false, url: `${WEB_URL}/${OWNER}/${REPO}/pulls`,
   },
   {
+    name: 'Action', value: 72, selected: false, url: `${WEB_URL}/${OWNER}/${REPO}/pulls`,
+  },
+  {
     name: 'Projects', value: 2, selected: false, url: `${WEB_URL}/${OWNER}/${REPO}/projects`,
+  },
+  {
+    name: 'Wiki', value: 2, selected: false, url: `${WEB_URL}/${OWNER}/${REPO}/projects`,
+  },
+  {
+    name: 'Security', value: 2, selected: false, url: `${WEB_URL}/${OWNER}/${REPO}/projects`,
   },
   {
     name: 'Insights', selected: false, url: `${WEB_URL}/${OWNER}/${REPO}/insights`,
