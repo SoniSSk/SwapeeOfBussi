@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 const Label = styled.span`
     background-color : #${props => (props.bgColor
     ? props.bgColor : '#fff')};
-    border-radius: 2px;
+    border-radius: 20px;
     box-shadow: inset 0 -1px 0 rgba(27,31,35,.12);
     font-size: 12px;
     font-weight: 600;
