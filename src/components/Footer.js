@@ -9,7 +9,7 @@ function Footer() {
         .then(response => response.json())
         // console.log("KK",response.json());
         .then(data => console.log("data",data));
-        // console.log(response.data);
+        console.log(response);
       }
 
        getData("https://api.github.com/repos/facebook/react/issues");

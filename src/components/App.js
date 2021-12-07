@@ -30,13 +30,13 @@ const App = () => (
     <Header />
     <IssueListingContainer>
       
-      {/* <Router>
+      <Router>
         <Switch>
           <Route exact path="/" component={IssuesTable} />
           
           <Route path="*" component={IssuesTable} />
         </Switch>
-      </Router> */}
+      </Router>
       
       <Footer/>
     </IssueListingContainer>
