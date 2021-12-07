@@ -6,9 +6,9 @@ const FooterMenu = styled.div`
       width: 88%;
       margin: 0 auto;
       padding-top : 10px;
-     
+    //   background-color: #fafbfc;
       
-      @media (max-width: 600px) {
+      @media (max-width: 900px) {
           flex-direction : column
           padding : 0px;
       }

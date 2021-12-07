@@ -6,10 +6,9 @@ import {
   Route,
   Switch,
 } from 'react-router-dom';
-import HeaderContainer from '../containers/HeaderContainer';
 import IssuesTable from './issues-table/IssuesTable';
-import IssuesDetail from './issue-detail/IssueDetail';
-import Footer from './header/Footer';
+import Footer from './Footer';
+import Header from './Header';
 
 const Container = styled.div`
   font-size : 14px;
@@ -28,18 +27,17 @@ const IssueListingContainer = styled.div`
 
 const App = () => (
   <Container>
-    <HeaderContainer />
+    <Header />
     <IssueListingContainer>
       
-      <Router>
+      {/* <Router>
         <Switch>
           <Route exact path="/" component={IssuesTable} />
-          <Route path="/:id" component={IssuesDetail} />
+          
           <Route path="*" component={IssuesTable} />
         </Switch>
-      </Router>
-      <p style={{ textAlign: 'center' }}><strong>ProTip</strong> What's not been update in a month:update:2021-08-17</p>
-     <hr/>
+      </Router> */}
+      
       <Footer/>
     </IssueListingContainer>
   </Container>

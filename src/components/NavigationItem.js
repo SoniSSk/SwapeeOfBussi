@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 import React from 'react';
 import PropTypes from 'prop-types';
-import CodeSVG from '../commons/svg/CodeSVG';
-import IssueOpenedSVG from '../commons/svg/IssueOpenedSVG';
-import PrSVG from '../commons/svg/PrSVG';
-import ProjectSVG from '../commons/svg/ProjectSVG';
-import InsightsSVG from '../commons/svg/InsightsSVG';
+import CodeSVG from './commons/svg/CodeSVG';
+import IssueOpenedSVG from './commons/svg/IssueOpenedSVG';
+import PrSVG from './commons/svg/PrSVG';
+import ProjectSVG from './commons/svg/ProjectSVG';
+import InsightsSVG from './commons/svg/InsightsSVG';
 
 const NavigationItemWrapper = styled.div`
 border-radius: 3px 3px 3px 3px;
